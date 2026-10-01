@@ -4,8 +4,7 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  analytics: null
   locale: en-US
   baseUrl: laminar.design
   ignorePatterns:
@@ -220,8 +219,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Privacy: /privacy
+        Support: /support
     layout:
       position: footer
       priority: 50
